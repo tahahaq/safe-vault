@@ -14,10 +14,10 @@ app.use(createLoading());
   app.use(plugin);
 });
 
-app.model({ namespace: 'global', ...(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/models/global.js').default) });
-app.model({ namespace: 'list', ...(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/models/list.js').default) });
-app.model({ namespace: 'login', ...(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/models/login.js').default) });
-app.model({ namespace: 'menu', ...(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/models/menu.js').default) });
-app.model({ namespace: 'project', ...(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/models/project.js').default) });
-app.model({ namespace: 'setting', ...(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/models/setting.js').default) });
-app.model({ namespace: 'user', ...(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/models/user.js').default) });
+app.model({ namespace: 'global', ...(require('/home/ansur/Xord.One/safevault/new/SafeVault/src/models/global.js').default) });
+app.model({ namespace: 'list', ...(require('/home/ansur/Xord.One/safevault/new/SafeVault/src/models/list.js').default) });
+app.model({ namespace: 'login', ...(require('/home/ansur/Xord.One/safevault/new/SafeVault/src/models/login.js').default) });
+app.model({ namespace: 'menu', ...(require('/home/ansur/Xord.One/safevault/new/SafeVault/src/models/menu.js').default) });
+app.model({ namespace: 'project', ...(require('/home/ansur/Xord.One/safevault/new/SafeVault/src/models/project.js').default) });
+app.model({ namespace: 'setting', ...(require('/home/ansur/Xord.One/safevault/new/SafeVault/src/models/setting.js').default) });
+app.model({ namespace: 'user', ...(require('/home/ansur/Xord.One/safevault/new/SafeVault/src/models/user.js').default) });

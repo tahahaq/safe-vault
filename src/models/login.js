@@ -17,7 +17,7 @@ export default {
   effects: {
     *login({ payload }, { call, put }) {
       const response = yield call(firebaseSignIn, payload);
-      // console.log('login resp ', response);
+      console.log('login resp ', response);
       yield put({
         type: 'changeLoginStatus',
         payload: response,

@@ -25,7 +25,7 @@ export function getAuthorityOrig(str) {
   //  return authority || ['admin'];
 }
 
-export function getAuthority(str) {
+export function getAuthority1(str) {
   let authority;
   try {
     authority = JSON.parse(authorityState);
@@ -38,6 +38,15 @@ export function getAuthority(str) {
   return authority;
   //  return authority || ['admin'];
 }
+
+export function getAuthority(str) {
+  if(authorityState !== null)
+  {    
+   return ['admin'];
+  }
+  return authorityState;
+}
+
 
 export function setAuthority(authority) {
   const proAuthority = typeof authority === 'string' ? [authority] : authority;

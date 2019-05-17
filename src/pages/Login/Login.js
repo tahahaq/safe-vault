@@ -1,21 +1,11 @@
 import React, { Component } from 'react';
 import { Input, Button } from 'antd';
-import { connect } from 'dva';
+
 import {getAuthority,setAuthority} from '../../utils/authority';
-import AntLogin from '@/components/Login';
-import { formatMessage, FormattedMessage } from 'umi/locale';
-import styles from './Login.less';
 
 
 const Wallet = require('ethereumjs-wallet');
 const EtheruemUtils = require('ethereumjs-util');
-const {Submit} = AntLogin;
-
-@connect(({ login, loading }) => ({
-  login,
-  submitting: loading.effects['login/login'],
-  submitBlockStackLogin: loading.effects['login/login'],
-}))
 
 class Login extends Component {
 
@@ -24,11 +14,11 @@ class Login extends Component {
         generateNewPrivateKey: false,
         privateKey: '',
         loading: false,
-        type: 'account',
-      };
+    };
 
     constructor(props) {
         super(props);
+        // console.log("Props are: ", props);
     }
 
     onInputPrivateKey = (value) => {
@@ -52,57 +42,20 @@ class Login extends Component {
         })
     }
 
-    handleSubmit = (err) => {
-      const { type } = this.state;
-      let values = {userName:"abc@gmail.com", password: "password"}
-      if (!err) {
-        console.log("Error occured.", err);
-      }
-      else
-      {
-        const { dispatch } = this.props;
-        this.setState({
-          loading: true
-        });
-        console.log("Handling dispatch.");
-        // UserInfo.setUserData(values.userName, '');
-        dispatch({
-          type: 'login/login',
-          payload: {
-            ...values,
-            type:'account',
-          },
-        });
-      }
-    };
-  
 
     onClickLogin = () => {
         let validity = EtheruemUtils.isValidPrivate((Buffer.from(this.state.privateKey, 'utf8')))
-        let values = {userName:"abc@gmail.com", password: "password"}
-        const {dispatch} = this.props;
-        const {type} = this.state;
-
         console.log("Check key: ", this.state.privateKey);
         console.log("Valid PK? ", validity);
 
         this.setState({
-            loading: true
+            loading: validity
         })
-        dispatch({
-          type: 'login/login',
-          payload: {
-            ...values,
-            type,
-          },
-        });
-      }
+        window.location = window.location.origin + '/certificates/allcertificateslist';
+    }
 
     render() { 
-        // console.log("Authority is: ", getAuthority());
-        const { login, submitting } = this.props;
-        const { type, autoLogin } = this.state;
-
+        console.log("Authority is: ", getAuthority());
         return (
             <div className="example-input" style={{width: "100%", margin: "20px auto"}}>
                 {
@@ -129,9 +82,9 @@ class Login extends Component {
                 }
                 <div style={{width: "40%", margin: "auto"}}>
                     <br />
-                      <Submit type="primary" loading={this.state.loading} onClick={this.handleSubmit}>
-                        Login
-                      </Submit>
+                    <Button type="primary" loading={this.state.loading} onClick={this.onClickLogin}>
+                    Login
+                    </Button>
                 </div>
             </div>
         );
@@ -139,31 +92,3 @@ class Login extends Component {
 }
  
 export default Login;
-
-
-  // <Submit type="primary" loading={this.state.loading} onClick={this.handleSubmit}>
-  // Login
-  // </Submit>
-
-
-// const { login, submitting } = this.props;
-// const { type, autoLogin } = this.state;
-// return (
-//   <div className={styles.main}>
-//     <Login
-//       defaultActiveKey={type}
-//       onTabChange={this.onTabChange}
-//       onSubmit={this.handleSubmit}
-//       ref={form => {
-//         this.loginForm = form;
-//       }}
-//     >
-//       <Submit loading={submitting}>
-//         <FormattedMessage id="app.login.login" />
-//       </Submit>
-//       <Button onClick = {this.onClickBlockStackSignIn}>
-//         Sign-in with Blockstack
-//       </Button>
-//       <div className={styles.other}>
-//       </div>
-//     </Login>

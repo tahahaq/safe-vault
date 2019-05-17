@@ -2,7 +2,7 @@ import React from 'react';
 import { Router as DefaultRouter, Route, Switch } from 'react-router-dom';
 import dynamic from 'umi/dynamic';
 import renderRoutes from 'umi/_renderRoutes';
-import RendererWrapper0 from '/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/pages/.umi/LocaleWrapper.jsx'
+import RendererWrapper0 from '/home/ansur/Xord.One/safevault/new/SafeVault/src/pages/.umi/LocaleWrapper.jsx'
 import _dvaDynamic from 'dva/dynamic'
 
 let Router = require('dva/router').routerRedux.ConnectedRouter;
@@ -13,7 +13,7 @@ let routes = [
     "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "layouts__UserLayout" */'../../layouts/UserLayout'),
-  LoadingComponent: require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/components/PageLoading/index').default,
+  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
 }),
     "routes": [
       {
@@ -27,23 +27,10 @@ let routes = [
         "component": _dvaDynamic({
   app: window.g_app,
 models: () => [
-  import(/* webpackChunkName: 'p__User__models__register.js' */'/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/pages/User/models/register.js').then(m => { return { namespace: 'register',...m.default}})
+  import(/* webpackChunkName: 'p__User__models__register.js' */'/home/ansur/Xord.One/safevault/new/SafeVault/src/pages/User/models/register.js').then(m => { return { namespace: 'register',...m.default}})
 ],
   component: () => import(/* webpackChunkName: "p__User__Login" */'../User/Login'),
-  LoadingComponent: require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/components/PageLoading/index').default,
-}),
-        "exact": true
-      },
-      {
-        "path": "/user/register-result",
-        "name": "register.result",
-        "component": _dvaDynamic({
-  app: window.g_app,
-models: () => [
-  import(/* webpackChunkName: 'p__User__models__register.js' */'/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/pages/User/models/register.js').then(m => { return { namespace: 'register',...m.default}})
-],
-  component: () => import(/* webpackChunkName: "p__User__RegisterResult" */'../User/RegisterResult'),
-  LoadingComponent: require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/components/PageLoading/index').default,
+  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
 }),
         "exact": true
       },
@@ -51,12 +38,12 @@ models: () => [
         "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "p__404" */'../404'),
-  LoadingComponent: require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/components/PageLoading/index').default,
+  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
 }),
         "exact": true
       },
       {
-        "component": () => React.createElement(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
+        "component": () => React.createElement(require('/home/ansur/Xord.One/safevault/new/SafeVault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
       }
     ]
   },
@@ -65,7 +52,7 @@ models: () => [
     "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "layouts__BasicLayout" */'../../layouts/BasicLayout'),
-  LoadingComponent: require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/components/PageLoading/index').default,
+  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
 }),
     "authority": [
       "admin",
@@ -100,15 +87,15 @@ models: () => [
             "component": _dvaDynamic({
   app: window.g_app,
 models: () => [
-  import(/* webpackChunkName: 'p__List__models__rule.js' */'/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/pages/List/models/rule.js').then(m => { return { namespace: 'rule',...m.default}})
+  import(/* webpackChunkName: 'p__List__models__rule.js' */'/home/ansur/Xord.One/safevault/new/SafeVault/src/pages/List/models/rule.js').then(m => { return { namespace: 'rule',...m.default}})
 ],
   component: () => import(/* webpackChunkName: "layouts__BasicLayout" */'../List/AllCertificates'),
-  LoadingComponent: require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/components/PageLoading/index').default,
+  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
 }),
             "exact": true
           },
           {
-            "component": () => React.createElement(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
+            "component": () => React.createElement(require('/home/ansur/Xord.One/safevault/new/SafeVault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
           }
         ]
       },
@@ -116,17 +103,17 @@ models: () => [
         "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "p__404" */'../404'),
-  LoadingComponent: require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/src/components/PageLoading/index').default,
+  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
 }),
         "exact": true
       },
       {
-        "component": () => React.createElement(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
+        "component": () => React.createElement(require('/home/ansur/Xord.One/safevault/new/SafeVault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
       }
     ]
   },
   {
-    "component": () => React.createElement(require('/home/ansur/Xord.One/ReceiverApp/Latest/encertReceiverAppGraphQL/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
+    "component": () => React.createElement(require('/home/ansur/Xord.One/safevault/new/SafeVault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
   }
 ];
 window.g_routes = routes;

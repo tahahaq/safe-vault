@@ -42,10 +42,10 @@ const UserLayout = ({ children }) => (
         <div className={styles.header}>
           {/*<Link to="/">*/}
             <img alt="logo" className={styles.logo} src={logo} />
-            <span className={styles.title}>Encert</span>
+            <span className={styles.title}>SafeVault</span>
           {/*</Link>*/}
         </div>
-        <div className={styles.desc}>Humanizing Certifications</div>
+        <div className={styles.desc}>Secure Blockchain Storage.</div>
       </div>
       {children}
     </div>
