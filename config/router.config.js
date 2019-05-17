@@ -19,8 +19,8 @@ export default [
     Routes: ['src/pages/Authorized'],
     routes: [
       // dashboard
-      { path: '/', redirect: '/certificates/allcertificateslist' },
-      { path: '/dashboard', redirect: '/certificates/allcertificateslist' },
+      { path: '/', redirect: '/storage/upload' },
+      { path: '/dashboard', redirect: '/storage/upload' },
       // {
       //   path: '/dashboard',
       //   name: 'dashboard',
@@ -45,22 +45,44 @@ export default [
       //   ],
       // },
 
-      //List of Certificates
+      //Upload A File
       {
-        path: '/certificates',
-        name: 'Certificates',
-        icon: 'table',
-        routes: [
-          { path: '/certificates', redirect: '/certificates/certificateslist' },
-          //All Certificates
-          {
-            path: '/certificates/allcertificateslist',
-            name: 'My Certificates',
-            icon: 'ordered-list',
-            component: './List/AllCertificates',
-          },
-        ]
+        path: '/storage/upload',
+        name: 'Upload Files',
+        icon: 'upload',
+        component: './Storage/Upload',
       },
+      //Download A File
+      {
+        path: '/storage/download',
+        name: 'Download Files',
+        icon: 'download',
+        component: './Storage/Download',
+      },
+
+      // //List of Certificates
+      // {
+      //   path: '/storage',
+      //   name: 'storage',
+      //   icon: 'table',
+      //   routes: [
+      //     { path: '/storage', redirect: '/storage/upload' },
+      //     //Upload A File
+      //     {
+      //       path: '/storage/upload',
+      //       name: 'Upload Files',
+      //       icon: 'upload',
+      //       component: './Storage/Upload',
+      //     },
+      //     //Download A File
+      //     {
+      //       path: '/storage/download',
+      //       name: 'Download Files',
+      //       icon: 'download',
+      //       component: './Storage/Download',
+      //     }
+      //   ]
+      // },
       // //List of Revoked Certificates
       // {
       //   path: '/list/search/revokedCertificateslist',
