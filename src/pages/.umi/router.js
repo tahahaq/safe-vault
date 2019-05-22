@@ -2,7 +2,7 @@ import React from 'react';
 import { Router as DefaultRouter, Route, Switch } from 'react-router-dom';
 import dynamic from 'umi/dynamic';
 import renderRoutes from 'umi/_renderRoutes';
-import RendererWrapper0 from '/home/ansur/Xord.One/safevault/new/SafeVault/src/pages/.umi/LocaleWrapper.jsx'
+import RendererWrapper0 from '/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/pages/.umi/LocaleWrapper.jsx'
 import _dvaDynamic from 'dva/dynamic'
 
 let Router = require('dva/router').routerRedux.ConnectedRouter;
@@ -13,7 +13,7 @@ let routes = [
     "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "layouts__UserLayout" */'../../layouts/UserLayout'),
-  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
+  LoadingComponent: require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/components/PageLoading/index').default,
 }),
     "routes": [
       {
@@ -27,10 +27,10 @@ let routes = [
         "component": _dvaDynamic({
   app: window.g_app,
 models: () => [
-  import(/* webpackChunkName: 'p__User__models__register.js' */'/home/ansur/Xord.One/safevault/new/SafeVault/src/pages/User/models/register.js').then(m => { return { namespace: 'register',...m.default}})
+  import(/* webpackChunkName: 'p__User__models__register.js' */'/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/pages/User/models/register.js').then(m => { return { namespace: 'register',...m.default}})
 ],
   component: () => import(/* webpackChunkName: "p__User__Login" */'../User/Login'),
-  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
+  LoadingComponent: require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/components/PageLoading/index').default,
 }),
         "exact": true
       },
@@ -38,12 +38,12 @@ models: () => [
         "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "p__404" */'../404'),
-  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
+  LoadingComponent: require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/components/PageLoading/index').default,
 }),
         "exact": true
       },
       {
-        "component": () => React.createElement(require('/home/ansur/Xord.One/safevault/new/SafeVault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
+        "component": () => React.createElement(require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
       }
     ]
   },
@@ -52,7 +52,7 @@ models: () => [
     "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "layouts__BasicLayout" */'../../layouts/BasicLayout'),
-  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
+  LoadingComponent: require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/components/PageLoading/index').default,
 }),
     "authority": [
       "admin",
@@ -77,7 +77,7 @@ models: () => [
         "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "p__Storage__Upload" */'../Storage/Upload'),
-  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
+  LoadingComponent: require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/components/PageLoading/index').default,
 }),
         "exact": true
       },
@@ -88,7 +88,7 @@ models: () => [
         "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "p__Storage__Download" */'../Storage/Download'),
-  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
+  LoadingComponent: require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/components/PageLoading/index').default,
 }),
         "exact": true
       },
@@ -96,17 +96,17 @@ models: () => [
         "component": _dvaDynamic({
   
   component: () => import(/* webpackChunkName: "p__404" */'../404'),
-  LoadingComponent: require('/home/ansur/Xord.One/safevault/new/SafeVault/src/components/PageLoading/index').default,
+  LoadingComponent: require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/components/PageLoading/index').default,
 }),
         "exact": true
       },
       {
-        "component": () => React.createElement(require('/home/ansur/Xord.One/safevault/new/SafeVault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
+        "component": () => React.createElement(require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
       }
     ]
   },
   {
-    "component": () => React.createElement(require('/home/ansur/Xord.One/safevault/new/SafeVault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
+    "component": () => React.createElement(require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
   }
 ];
 window.g_routes = routes;
