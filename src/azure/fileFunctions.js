@@ -1,7 +1,6 @@
 var sha256File = require('sha256-file');
 
 
-
 async function generateHash(filePath) {
   try {
     return await sha256File(filePath);
@@ -10,6 +9,3 @@ async function generateHash(filePath) {
   }
 }
 
-async function () {
-  
-}

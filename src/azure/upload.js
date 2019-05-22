@@ -7,26 +7,29 @@ var fileService = azure.createFileService('safevault', 'FVRq9jdWI4XXbE6EZ/FAypP5
 test();
 async function test() {
 
-    await  fileService.createShareIfNotExists('taskshare', function(error, result, response) {
-        if (!error) {
-            // if result = true, share was created.
-            // if result = false, share already existed.
-        }
-    });
-
-    await fileService.createDirectoryIfNotExists('taskshare', 'taskdirectory', function(error, result, response) {
-        if (!error) {
-            // if result.created = true, share was created.
-            // if result.created = false, share already existed.
-        }
-    });
-
-
-    await fileService.createFileFromLocalFile('taskshare', 'taskdirectory', 'image', 'test.png', function(error, result, response) {
-        if (!error) {
-            // file uploaded
-        }
-    });
+    fileService.listFilesAndDirectoriesSegmented('taskshare','taskdirectory',null , function(error,result,reponse) {
+        console.log(result.entries.files)
+    })
+    // await  fileService.createShareIfNotExists('taskshare', function(error, result, response) {
+    //     if (!error) {
+    //         // if result = true, share was created.
+    //         // if result = false, share already existed.
+    //     }
+    // });
+    //
+    // await fileService.createDirectoryIfNotExists('taskshare', 'taskdirectory', function(error, result, response) {
+    //     if (!error) {
+    //         // if result.created = true, share was created.
+    //         // if result.created = false, share already existed.
+    //     }
+    // });
+    //
+    //
+    // await fileService.createFileFromLocalFile('taskshare', 'taskdirectory', 'image', 'test.png', function(error, result, response) {
+    //     if (!error) {
+    //         // file uploaded
+    //     }
+    // });
 
 
 }
