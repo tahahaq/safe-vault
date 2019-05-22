@@ -62,42 +62,35 @@ models: () => [
     "routes": [
       {
         "path": "/",
-        "redirect": "/certificates/allcertificateslist",
+        "redirect": "/storage/upload",
         "exact": true
       },
       {
         "path": "/dashboard",
-        "redirect": "/certificates/allcertificateslist",
+        "redirect": "/storage/upload",
         "exact": true
       },
       {
-        "path": "/certificates",
-        "name": "Certificates",
-        "icon": "table",
-        "routes": [
-          {
-            "path": "/certificates",
-            "redirect": "/certificates/certificateslist",
-            "exact": true
-          },
-          {
-            "path": "/certificates/allcertificateslist",
-            "name": "My Certificates",
-            "icon": "ordered-list",
-            "component": _dvaDynamic({
-  app: window.g_app,
-models: () => [
-  import(/* webpackChunkName: 'p__List__models__rule.js' */'/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/pages/List/models/rule.js').then(m => { return { namespace: 'rule',...m.default}})
-],
-  component: () => import(/* webpackChunkName: "layouts__BasicLayout" */'../List/AllCertificates'),
+        "path": "/storage/upload",
+        "name": "Upload Files",
+        "icon": "upload",
+        "component": _dvaDynamic({
+  
+  component: () => import(/* webpackChunkName: "p__Storage__Upload" */'../Storage/Upload'),
   LoadingComponent: require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/components/PageLoading/index').default,
 }),
-            "exact": true
-          },
-          {
-            "component": () => React.createElement(require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
-          }
-        ]
+        "exact": true
+      },
+      {
+        "path": "/storage/download",
+        "name": "Download Files",
+        "icon": "download",
+        "component": _dvaDynamic({
+  
+  component: () => import(/* webpackChunkName: "p__Storage__Download" */'../Storage/Download'),
+  LoadingComponent: require('/media/taha/70E48D47E48D1090/Paid Projects/Blockchain/upwork/File storage using azure and ethereum/safe-vault/src/components/PageLoading/index').default,
+}),
+        "exact": true
       },
       {
         "component": _dvaDynamic({

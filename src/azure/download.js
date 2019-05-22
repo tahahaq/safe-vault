@@ -8,7 +8,7 @@ var fileService = azure.createFileService('safevault', 'FVRq9jdWI4XXbE6EZ/FAypP5
 test();
 async function test() {
 
-    await  fileService.getFileToStream('taskshare', 'taskdirectory', 'taskfile', fs.createWriteStream('output.md'), function(error, result, response) {
+    await  fileService.getFileToStream('taskshare', 'taskdirectory', 'taskfile', fs.createWriteStream('test2.png'), function(error, result, response) {
         if (!error) {
             // file retrieved
         }
