@@ -23,19 +23,12 @@ async function test() {
     });
 
 
-
-    await fileService.createFileFromLocalFile('taskshare', 'taskdirectory', 'taskfile', 'test1.png', function(error, result, response) {
+    await fileService.createFileFromLocalFile('taskshare', 'taskdirectory', 'image', 'test.png', function(error, result, response) {
         if (!error) {
             // file uploaded
         }
     });
 
-
-    await  fileService.getFileToStream('taskshare', 'taskdirectory', 'taskfile', fs.createWriteStream('test1.png'), function(error, result, response) {
-        if (!error) {
-            // file retrieved
-        }
-    });
 
 }
 

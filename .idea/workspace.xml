@@ -2,122 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d118ec-16b1-49ca-8ef2-0c0263e7671e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/9.async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/9.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/icons/encert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/icons/icon-128x128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/icons/icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/icons/icon-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/layouts__BasicLayout.async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/layouts__BasicLayout.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/layouts__UserLayout.async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/layouts__UserLayout.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/p__404.async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/p__Storage__Download.async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/p__Storage__Download.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/p__Storage__Upload.async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/p__User__Login.async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/p__User__Login.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/p__User__models__register.js.async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/precache-manifest.5c07c9e525ed62b1334d032247443d49.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pwacompat.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/static/forQR.90bbe34b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/static/react.ca31f74a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/umi.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/umi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/vendors.async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/vendors.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-background-sync.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-background-sync.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-background-sync.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-background-sync.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-broadcast-cache-update.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-broadcast-cache-update.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-broadcast-cache-update.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-broadcast-cache-update.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-cache-expiration.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-cache-expiration.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-cache-expiration.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-cache-expiration.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-cacheable-response.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-cacheable-response.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-cacheable-response.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-cacheable-response.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-core.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-core.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-core.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-core.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-google-analytics.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-google-analytics.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-google-analytics.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-google-analytics.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-navigation-preload.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-navigation-preload.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-navigation-preload.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-navigation-preload.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-precaching.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-precaching.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-precaching.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-precaching.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-range-requests.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-range-requests.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-range-requests.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-range-requests.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-routing.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-routing.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-routing.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-routing.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-strategies.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-strategies.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-strategies.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-strategies.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-streams.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-streams.dev.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-streams.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-streams.prod.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/workbox-v3.6.3/workbox-sw.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Storage/Download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Storage/Upload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/router.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/azure/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/azure/download.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/azure/test1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/azure/test2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/azure/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/azure/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/.umi/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/.umi/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -133,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/azure/download.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="111" selection-start-line="10" selection-start-column="111" selection-end-line="10" selection-end-column="111" />
+            <state relative-caret-position="216">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -142,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/azure/upload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="33" column="110" selection-start-line="33" selection-start-column="110" selection-end-line="33" selection-end-column="110" />
+            <state relative-caret-position="156">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -173,10 +62,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1024" />
-    <option name="y" value="-2" />
-    <option name="width" value="1024" />
-    <option name="height" value="770" />
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1533" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -229,6 +118,9 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/azure" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/azure" />
       <recent name="$PROJECT_DIR$" />
@@ -258,17 +150,17 @@
       <updated>1558062658125</updated>
       <workItem from="1558062659629" duration="4467000" />
       <workItem from="1558409489749" duration="2382000" />
-      <workItem from="1558498837075" duration="1017000" />
+      <workItem from="1558498837075" duration="2150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7866000" />
+    <option name="totallyTimeSpent" value="8999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19006622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -283,7 +175,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.352459" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18306011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,17 +242,26 @@
     <entry file="file://$PROJECT_DIR$/src/interface/web3.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/azure/test1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/azure/test.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/azure/test2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/azure/upload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="33" column="110" selection-start-line="33" selection-start-column="110" selection-end-line="33" selection-end-column="110" />
+        <state relative-caret-position="156">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/azure/download.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="111" selection-start-line="10" selection-start-column="111" selection-end-line="10" selection-end-column="111" />
+        <state relative-caret-position="216">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
