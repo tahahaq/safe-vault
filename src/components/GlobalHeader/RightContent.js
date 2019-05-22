@@ -20,9 +20,6 @@ export default class GlobalHeaderRight extends PureComponent {
   };
 
   UNSAFE_componentWillMount() {
-    // const name = UserInfo.getUserData().name;
-    // const url =  UserInfo.getUserData().avatarURL;
-    // const em = UserInfo.getUserData().email;
     this.updateData(UserInfo.getUserData());
   }
 
@@ -123,15 +120,15 @@ export default class GlobalHeaderRight extends PureComponent {
           {/*<Icon type="user" />*/}
           {/*<FormattedMessage id="menu.account.center" defaultMessage="account center" />*/}
         {/*</Menu.Item>*/}
-        <Menu.Item key="userinfo">
+        {/* <Menu.Item key="userinfo">
           <Icon type="setting" />
           <FormattedMessage id="menu.account.settings" defaultMessage="account settings" />
-        </Menu.Item>
+        </Menu.Item> */}
         {/*<Menu.Item key="triggerError">*/}
           {/*<Icon type="close-circle" />*/}
           {/*<FormattedMessage id="menu.account.trigger" defaultMessage="Trigger Error" />*/}
         {/*</Menu.Item>*/}
-        <Menu.Divider />
+        {/* <Menu.Divider /> */}
         <Menu.Item key="logout">
           <Icon type="logout" />
           <FormattedMessage id="menu.account.logout" defaultMessage="logout" />
@@ -239,7 +236,8 @@ export default class GlobalHeaderRight extends PureComponent {
           <HeaderDropdown overlay={menu}>
           <span className={`${styles.action} ${styles.account}`}>
           <Spin size="small" style={{ marginLeft: 8, marginRight: 8 }} />
-          <span className={styles.name}>{this.state.useremail}</span>
+          <span className={styles.name}>Account</span>
+          <Icon type="caret-down" style={{marginLeft: "5px"}}/>
           </span>
           </HeaderDropdown>
         )}
